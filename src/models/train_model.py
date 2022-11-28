@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 import sys
+sys.path.append('src')
+
 import json
 import joblib
 import numpy as np
@@ -15,8 +17,6 @@ import click
 import logging
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
-
-sys.path.append('src')
 
 
 @click.command()
